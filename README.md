@@ -1,7 +1,7 @@
 # Captive Portal
 This login system ensures that only authorized individuals with valid accounts can access the network.
 
-I crafted this login page to seamlessly integrate with a Synology router featuring a guest portal, facilitating user registration before granting network access.
+I crafted this login page to integrate with a Synology router featuring a guest portal, allowing user registration before granting network access.
 
 To set up, clone this repository using the command:
 ```git clone https://github.com/bwithe/captiveportal```
