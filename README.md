@@ -6,7 +6,7 @@ First, you'll have to clone this repo.
 
 Then run ```python3 server.py```
 
-You will be prompted for IP address, and Port that you want the captive port to run.
+You will be prompted for IP address, and Port that you want the captive portal to run on. 
 
 You can press enter for the default settings.
 
