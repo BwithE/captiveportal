@@ -1,4 +1,4 @@
-# RaspberryPi captive portal
+# Captive Portal
 A captive portal designed for guests to login and create a user account.
 
 First, you'll have to clone this repo.
