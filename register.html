@@ -27,11 +27,6 @@
             border-radius: 10px;
         }
 
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-
         input {
             width: 100%;
             padding: 10px;
@@ -68,11 +63,9 @@
     <div>
         <h2>Register</h2>
         <form method="post" action="/register">
-            <label for="new_username">New Username:</label>
-            <input type="text" id="new_username" name="new_username" required><br>
+            <input type="text" id="new_username" name="new_username" placeholder="New Username" required><br>
 
-            <label for="new_password">New Password:</label>
-            <input type="password" id="new_password" name="new_password" required><br>
+            <input type="password" id="new_password" name="new_password" placeholder="New Password" required><br>
 
             <input type="submit" value="Register">
         </form>
