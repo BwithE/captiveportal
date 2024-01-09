@@ -10,6 +10,8 @@ You will be prompted for IP address, and Port that you want the captive port to 
 
 You can press enter for the default settings.
 
+All usernames and passwords will be stored in the ```users.txt```
+
 ![image](https://github.com/BwithE/rpi-cp/assets/144924113/e19c51f4-0987-4cc7-82a3-19841d30c05d)
 
 ![image](https://github.com/BwithE/rpi-cp/assets/144924113/ec1873aa-4491-4c5a-895c-69c4db8776fa)
