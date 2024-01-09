@@ -1,7 +1,7 @@
 # RaspberryPi captive portal
 A captive portal designed for guests to login and create a user account.
 
-First you'll have to clone this repo.
+First, you'll have to clone this repo.
 ```git clone https://github.com/bwithe/rpi-cp```
 
 Then run ```python3 server.py```
