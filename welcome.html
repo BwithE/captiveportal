@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* White text color */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #ff7f50; /* Coral color for headers */
+        }
+
+        #welcomeMessage {
+            margin-top: 50px;
+        }
+
+        #logoutLink {
+            display: block;
+            margin-top: 20px;
+            color: #4caf50; /* Green color for the link */
+            text-decoration: none;
+        }
+
+        #logoutLink:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome, <span id="usernamePlaceholder"></span>!</h2>
+    <div id="welcomeMessage">
+        <p>This is your welcome page content.</p>
+    </div>
+    <a href="/index.html" id="logoutLink">Logout</a>
+
+    <script>
+        // Extract username from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const username = urlParams.get('username');
+
+        // Display the username in the placeholder
+        document.getElementById('usernamePlaceholder').textContent = username;
+    </script>
+</body>
+</html>
