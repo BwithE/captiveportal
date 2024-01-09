@@ -14,10 +14,11 @@ All usernames and passwords will be stored in clear text in the ```users.txt```
 
 I will update the script to hash the passwords. 
 
+![image](https://github.com/BwithE/captiveportal/assets/144924113/da884d51-e4c0-4a4d-808c-2dd918c0b7b6)
 
-![image](https://github.com/BwithE/rpi-cp/assets/144924113/e19c51f4-0987-4cc7-82a3-19841d30c05d)
+![image](https://github.com/BwithE/captiveportal/assets/144924113/cd0bf20f-a73e-421a-9d5e-ebd38ab394f8)
 
-![image](https://github.com/BwithE/rpi-cp/assets/144924113/ec1873aa-4491-4c5a-895c-69c4db8776fa)
+![image](https://github.com/BwithE/captiveportal/assets/144924113/298eae69-cadb-46d9-8852-e33285af52ab)
 
-![image](https://github.com/BwithE/rpi-cp/assets/144924113/76cf6030-5c22-4ca3-bbc0-4c775b54777b)
+
 
