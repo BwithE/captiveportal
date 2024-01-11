@@ -12,7 +12,7 @@ Then, execute the following command to run the server:
 
 You will be prompted to input the IP address and port for the captive portal. Press Enter for default settings.
 
-Please note that all usernames and passwords are currently stored in clear text in the users.txt file. A future update will include password hashing for enhanced security. 
+Please note that all usernames and passwords are currently stored in clear text in the **_users.txt_** file. A future update will include password hashing for enhanced security. 
 
 ![image](https://github.com/BwithE/captiveportal/assets/144924113/da884d51-e4c0-4a4d-808c-2dd918c0b7b6)
 
