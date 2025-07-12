@@ -1,16 +1,22 @@
 # Captive Portal
-This login system ensures that only authorized individuals with valid accounts can access the network.
 
-I crafted this login page to integrate with a Synology router featuring a guest portal, allowing user registration before granting network access.
+## Disclaimer
+Not meant for illegal use. I am not resposible for the outcomes of your use case.
 
-To set up, clone this repository using the command:
-```git clone https://github.com/bwithe/captiveportal```
+## Decription
+I was working on a way to create and capture usernames and passwords for those who authenticated to a network. This would allow a user to register and get to a welcome page. In future updates, it could be forwarded elsewhere. 
 
-Then, execute the following command to run the server:
+Clone the repo
+```
+git clone https://github.com/bwithe/captiveportal
+```
 
- ```python3 server.py```
-
-You will be prompted to input the IP address and port for the captive portal. Press Enter for default settings.
+Start the server:
+- You will be prompted to input the IP address and port for the captive portal. Press Enter for default settings.
+```
+cd captiveportal
+python3 server.py
+```
 
 Please note that all usernames and passwords are currently stored in clear text in the **_users.txt_** file. A future update will include password hashing for enhanced security. 
 
